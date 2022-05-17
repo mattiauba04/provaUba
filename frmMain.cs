@@ -9,7 +9,8 @@ namespace provaUba
             InitializeComponent();
         }
 
-     Dictionary<string, Persona> _data = new Dictionary<string, Persona>();
+        string nome;
+     Dictionary<string, Persona> rubrica = new Dictionary<string, Persona>();
         
     }
 }
