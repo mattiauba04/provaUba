@@ -1,4 +1,6 @@
+using provaUba.Library;
 namespace provaUba
+
 {
     public partial class frmMain : Form
     {
@@ -7,6 +9,7 @@ namespace provaUba
             InitializeComponent();
         }
 
+     Dictionary<string, Persona> _data = new Dictionary<string, Persona>();
         
     }
 }
